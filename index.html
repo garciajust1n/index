@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Engineer Portfolio</title>
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <!-- Navigation bar -->
+    <nav class="bg-gray-800 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-lg font-semibold">My Portfolio</a>
+            <ul class="flex space-x-4">
+                <li><a href="#" class="hover:text-gray-300">Home</a></li>
+                <li><a href="#" class="hover:text-gray-300">Projects</a></li>
+                <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+                <li><a href="#" class="hover:text-gray-300">Portfolio</a></li>
+                <li><a href="#" class="hover:text-gray-300">Services</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Header section -->
+    <header class="py-12 bg-gray-900 text-white">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl font-semibold">Hi, I'm Justin Garcia</h1>
+            <p class="mt-2">Software Engineer with 1 year experience in Java Development</p>
+        </div>
+    </header>
+
+    <!-- About Me section -->
+    <section class="py-12">
+        <div class="container mx-auto">
+            <h2 class="text-2xl font-semibold mb-4">About Me</h2>
+            <p>I graduated with a degree in Computer Science from University Diliman, where I gained a solid foundation in software development principles and algorithms. During my time there, I completed several projects, including [UI Design,Web Design], which allowed me to apply my knowledge in practical scenarios.</p>
+        </div>
+    </section>
+
+    <!-- Skills section -->
+    <section class="py-12 bg-gray-200">
+        <div class="container mx-auto">
+            <h2 class="text-2xl font-semibold mb-4">Skills</h2>
+            <ul>
+                <li>Java</li>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>SQL</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Experience section -->
+    <section class="py-12">
+        <div class="container mx-auto">
+            <h2 class="text-2xl font-semibold mb-4">Experience</h2>
+            <ul>
+                <li>Software Engineer at ABC Company (2023-present)</li>
+                <li>Internship at XYZ Corporation (2022)</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Education section -->
+    <section class="py-12 bg-gray-200">
+        <div class="container mx-auto">
+            <h2 class="text-2xl font-semibold mb-4">Education</h2>
+            <ul>
+                <li>Bachelor's Degree in Computer Science, University (2022)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="py-12">
+        <div class="container mx-auto">
+            <h2 class="text-2xl font-semibold mb-4">My Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Project cards -->
+                <div class="p-6 bg-white rounded shadow">
+                    <h3 class="font-semibold text-lg">Web design</h3>
+                    <p class="mt-2">Web design involves creating the visual appearance and layout of websites. It encompasses various elements such as color scheme, typography, graphics, and overall aesthetics to enhance user experience and convey the desired message or information effectively. Additionally, web design involves considerations for usability, accessibility, and responsiveness across different devices and screen sizes. It's a combination of artistry and functionality, aiming to create a seamless and engaging digital experience for visitors.</p>
+                </div>
+                <div class="p-6 bg-white rounded shadow">
+                    <h3 class="font-semibold text-lg">UI Design</h3>
+                    <p class="mt-2">UI (User Interface) design focuses on the visual and interactive aspects of digital products, including websites, mobile apps, and software applications. It involves designing the graphical layout of elements that users interact with, such as buttons, menus, forms, and other visual elements, to ensure a seamless and intuitive user experience.</p>
+                </div>
+                <div class="p-6 bg-white rounded shadow">
+                    <h3 class="font-semibold text-lg">App Design</h3>
+                    <p class="mt-2">App design encompasses both UI (User Interface) design and UX (User Experience) design specific to mobile applications. It involves creating the visual appearance, layout, and interactions of the app interface, as well as ensuring that the app delivers a seamless and intuitive experience to users.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="py-12">
+        <div class="container mx-auto">
+            <h2 class="text-2xl font-semibold mb-4">Contact Me</h2>
+            <form class="max-w-md mx-auto">
+                <div class="mb-4">
+                    <label for="name" class="block mb-2">Name</label>
+                    <input type="text" id="name" name="name" class="w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-blue-400">
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block mb-2">Email</label>
+                    <input type="email" id="email" name="email" class="w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-blue-400">
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block mb-2">Message</label>
+                    <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-blue-400"></textarea>
+                </div>
+                <button type="submit" class="bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <h1>Follow Us on Social Media</h1>
+    
+    <!-- Facebook Icon linked to Facebook profile -->
+    <a href="https://www.facebook.com/your-facebook-page" target="_blank">
+        <img src="facebook-icon.png" alt="Facebook" width="70" height="50">
+    </a>
+    <!-- Twitter Icon linked to Twitter profile -->
+    <a href="https://twitter.com/your-twitter-handle" target="_blank">
+        <img src="twitter-icon.png" alt="Twitter" width="50" height="50">
+    </a>
+    <!-- Instagram Icon linked to Instagram profile -->
+    <a href="https://www.instagram.com/your-instagram-handle" target="_blank">
+        <img src="instagram-icon.png" alt="Instagram" width="70" height="50">
+    </a>
+    <!-- Example: Image files are assumed to be in the same directory as the HTML file -->
+
+    <!-- Footer section -->
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Include JavaScript if needed -->
+    <script>
+        // You can add JavaScript functionality here
+    </script>
+
+    
+</body>
+</html>
